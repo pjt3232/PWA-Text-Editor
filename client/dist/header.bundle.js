@@ -1,0 +1,1 @@
+(()=>{var _={426:_=>{_.exports="\n/*\n       _____  ____________\n      / /   |/_  __/ ____/\n __  / / /| | / / / __/   \n/ /_/ / ___ |/ / / /___   \n ____/_/  |_/_/ /_____/   \njust another text editor\n*/                          \n"}},n={};!function r(t){var e=n[t];if(void 0!==e)return e.exports;var o=n[t]={exports:{}};return _[t](o,o.exports,r),o.exports}(426)})();

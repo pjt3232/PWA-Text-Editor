@@ -62,10 +62,3 @@ const navigationRoute = new NavigationRoute(handleOfflineFallback);
 registerRoute(navigationRoute);
 
 //adds offline.html to your cache during install
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(pageCache.cacheName).then((cache) => cache.add('/offline.html'))
-  );
-});
-
-registerRoute();
