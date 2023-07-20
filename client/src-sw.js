@@ -60,5 +60,3 @@ async function handleOfflineFallback ({ event }) {
 //use a navigation route for offline feedback
 const navigationRoute = new NavigationRoute(handleOfflineFallback);
 registerRoute(navigationRoute);
-
-//adds offline.html to your cache during install
