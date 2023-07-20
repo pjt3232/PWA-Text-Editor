@@ -22,7 +22,7 @@ export const putDb = async (content) => {
     const store = tx.objectStore('jate');
     const request = store.put({ id:1, value:content });
     const result = await request;
-    console.log('Data saved to the database', result.value);
+    console.log('Data saved to the database');
   } catch (error) {
     console.error('Error while putting data into the database:', error);
   }
@@ -37,7 +37,7 @@ export const getDb = async () => {
     const store = tx.objectStore('jate');
     const request = store.getAll();
     const result = await request;
-    console.log('Data retrieved from the database', result);
+    console.log('Data retrieved from the database');
     return result;
   } catch (error) {
     console.error('Error while getting data from the database:', error);
